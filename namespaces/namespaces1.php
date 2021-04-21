@@ -19,8 +19,3 @@ class login
         echo "Hello from Login $this->i <br/>";
     }
 }
-for ($i=0; $i <10 ; $i++) { 
-    
-    $l=new login($i);
-    $hello=new User("Hussein");
-}

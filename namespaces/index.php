@@ -14,4 +14,8 @@ use two\login;
 
 
 $mon=new TUser("A7A ");
-$l1=new login();
+for ($i=0; $i <10 ; $i++) { 
+    
+    $l=new login($i);
+    $hello=new TUser("Hussein");
+}
